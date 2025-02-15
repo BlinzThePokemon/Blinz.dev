@@ -28,10 +28,20 @@
                 {/each}
             </div>
             <i
-                class="fa-solid fa-gear ml-[1750px] text-3xl transition-all delay-100 duration-300 ease-in-out hover:text-4xl fa-spin">
+                class="fa-solid fa-gear ml-[1750px] text-3xl transition-all delay-100 duration-300 ease-in-out hover:text-4xl spin">
             </i>
         </div>
     </div>
 </nav>
+
+<style>
+    .spin{
+        transition: all 0.9s;
+    }
+    .spin:hover{
+        transform: rotate(360deg);
+        transition: all 0.9s;
+    }
+</style>
 
 {@render children()}

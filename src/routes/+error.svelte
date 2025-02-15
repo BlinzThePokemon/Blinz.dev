@@ -20,7 +20,7 @@
     ::selection {
         background: orange;
     }
-    :global(body) {
+    .holder{
         font-family: 'Poppins', sans-serif;
     }
     a{
